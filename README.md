@@ -32,16 +32,11 @@ devbox shell
 
 ### Without Devbox
 
-If not using Devbox, ensure you have Java 11+ and Gradle 5.3+ installed on your system.
+If not using Devbox, ensure you have Java 11+ and Gradle 6.X installed on your system.
 
 ## Building the Application
 
-```bash
-cd app
-./gradlew clean build
-```
-
-Or using the CI script:
+use the CI script:
 
 ```bash
 ./ci/build-app.sh
@@ -50,8 +45,7 @@ Or using the CI script:
 ## Running Locally
 
 ```bash
-cd app
-./gradlew run
+devbox run serve
 ```
 
 The application will start on port 8000 by default. You can access:
@@ -92,18 +86,6 @@ docker run -p 8000:8000 ghcr.io/YOUR_USERNAME/micronaut-app:latest
 ```bash
 ./ci/performance-test.sh
 ```
-
-## CI/CD Pipeline
-
-This project includes a GitHub Actions workflow that:
-
-1. Builds the application
-2. Runs unit tests
-3. Performs code linting
-4. Builds a Docker image
-5. Runs security scans with Trivy
-6. Executes component tests
-7. Runs performance tests
 
 ## API Endpoints
 
