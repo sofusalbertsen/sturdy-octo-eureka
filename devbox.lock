@@ -1,0 +1,54 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "gradle_6@latest": {
+      "last_modified": "2024-10-30T07:09:13Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/2d2a9ddbe3f2c00747398f3dc9b05f7f2ebb0f53#gradle_6",
+      "source": "devbox-search",
+      "version": "6.9.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6pv1qrjvclwxvmz9xabrkqyrl4m5v42d-gradle-6.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6pv1qrjvclwxvmz9xabrkqyrl4m5v42d-gradle-6.9.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/caagraklzgp3vrpax2j0qx32as4hpsn9-gradle-6.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/caagraklzgp3vrpax2j0qx32as4hpsn9-gradle-6.9.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1n4036swd9awpzs4s4hlp3y3mfjkwb7c-gradle-6.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1n4036swd9awpzs4s4hlp3y3mfjkwb7c-gradle-6.9.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n5ky9arp2rpy72xrbli68c1rnbp9r3x6-gradle-6.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n5ky9arp2rpy72xrbli68c1rnbp9r3x6-gradle-6.9.4"
+        }
+      }
+    }
+  }
+}
