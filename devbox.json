@@ -1,13 +1,17 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.13.4/.schema/devbox.schema.json",
-  "packages": ["gradle@6.8.3"],
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.4/.schema/devbox.schema.json",
+  "packages": [
+    "jdk@11",
+    "gradle@6"
+  ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
+      "serve": [
+        "gradle build -p app",
+        "gradle run -p app"
       ]
     }
   }
