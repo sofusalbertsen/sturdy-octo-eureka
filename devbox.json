@@ -1,6 +1,6 @@
 {
   "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.13.4/.schema/devbox.schema.json",
-  "packages": ["gradle_6@latest"],
+  "packages": ["gradle@6.8.3"],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
